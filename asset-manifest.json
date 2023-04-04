@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/cr-site/static/css/main.073c9b0a.css",
-    "main.js": "/cr-site/static/js/main.27ea57c2.js",
+    "main.css": "/cr-site/static/css/main.b0ab0cc8.css",
+    "main.js": "/cr-site/static/js/main.9a3bc39d.js",
     "static/js/787.6089a77a.chunk.js": "/cr-site/static/js/787.6089a77a.chunk.js",
-    "static/media/logo.svg": "/cr-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/ambassador.png": "/cr-site/static/media/ambassador.08b527c681db9f54d98a.png",
+    "static/media/MYRIADPRO-BOLD.woff": "/cr-site/static/media/MYRIADPRO-BOLD.1c6432261fa438517e63.woff",
+    "static/media/MYRIADPRO-REGULAR.woff": "/cr-site/static/media/MYRIADPRO-REGULAR.d30b05461519da431d12.woff",
+    "static/media/MyriadPro-Light.woff": "/cr-site/static/media/MyriadPro-Light.43b72dcd0e748e9d3f5b.woff",
+    "static/media/sign.png": "/cr-site/static/media/sign.63ea318cb7c80ea281f7.png",
+    "static/media/logo.png": "/cr-site/static/media/logo.01607361c1434a967c3b.png",
     "index.html": "/cr-site/index.html",
-    "main.073c9b0a.css.map": "/cr-site/static/css/main.073c9b0a.css.map",
-    "main.27ea57c2.js.map": "/cr-site/static/js/main.27ea57c2.js.map",
+    "main.b0ab0cc8.css.map": "/cr-site/static/css/main.b0ab0cc8.css.map",
+    "main.9a3bc39d.js.map": "/cr-site/static/js/main.9a3bc39d.js.map",
     "787.6089a77a.chunk.js.map": "/cr-site/static/js/787.6089a77a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.27ea57c2.js"
+    "static/css/main.b0ab0cc8.css",
+    "static/js/main.9a3bc39d.js"
   ]
 }
