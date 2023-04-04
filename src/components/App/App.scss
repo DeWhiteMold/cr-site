@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Myraid-pro';
+  src: url(../../fonts/myraid-pro/MYRIADPRO-REGULAR.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Myraid-pro';
+  src: url(../../fonts/myraid-pro/MYRIADPRO-BOLD.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Myraid-pro';
+  src: url(../../fonts/myraid-pro/MyriadPro-Light.woff);
+  font-weight: lighter;
+}
+
+body, html, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
