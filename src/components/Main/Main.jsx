@@ -82,8 +82,8 @@ function Main() {
             }}
             spaceBetween={10}
             slidesPerView={2}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => {}}
+            onSwiper={(swiper) => {}}
           >
             <SwiperSlide>
               <div className="card">
