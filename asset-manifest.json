@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cr-site/static/css/main.ca073cff.css",
-    "main.js": "/cr-site/static/js/main.3bc1991b.js",
+    "main.css": "/cr-site/static/css/main.9f0b831a.css",
+    "main.js": "/cr-site/static/js/main.a430eab6.js",
     "static/js/787.6089a77a.chunk.js": "/cr-site/static/js/787.6089a77a.chunk.js",
     "static/media/ambassador.png": "/cr-site/static/media/ambassador.08b527c681db9f54d98a.png",
     "static/media/bitcoin.png": "/cr-site/static/media/bitcoin.23495390ace8088994cb.png",
@@ -11,12 +11,12 @@
     "static/media/sign.png": "/cr-site/static/media/sign.63ea318cb7c80ea281f7.png",
     "static/media/logo.png": "/cr-site/static/media/logo.01607361c1434a967c3b.png",
     "index.html": "/cr-site/index.html",
-    "main.ca073cff.css.map": "/cr-site/static/css/main.ca073cff.css.map",
-    "main.3bc1991b.js.map": "/cr-site/static/js/main.3bc1991b.js.map",
+    "main.9f0b831a.css.map": "/cr-site/static/css/main.9f0b831a.css.map",
+    "main.a430eab6.js.map": "/cr-site/static/js/main.a430eab6.js.map",
     "787.6089a77a.chunk.js.map": "/cr-site/static/js/787.6089a77a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca073cff.css",
-    "static/js/main.3bc1991b.js"
+    "static/css/main.9f0b831a.css",
+    "static/js/main.a430eab6.js"
   ]
 }
