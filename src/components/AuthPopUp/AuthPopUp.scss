@@ -1,0 +1,77 @@
+.popup {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_hidden {
+    display: none;
+  }
+
+  &__form {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: #fff;
+    padding: 0 50px 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: 'Myraid-pro', sans-serif;
+  }
+
+  &__title {
+    margin: 30px 0;
+  }
+
+  &__input {
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #b7b7b7;
+    width: 100%;
+    font-size: 18px;
+
+    &::placeholder {
+      color: #d6d6d6;
+      text-align: center;
+    }
+  }
+
+  &__error {
+    height: 7px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: red;
+  }
+
+  &__submit {
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    border-radius: 20px;
+    font-family: 'Myraid-pro', sans-serif;
+    font-size: 20px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: .7;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}

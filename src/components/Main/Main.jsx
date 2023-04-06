@@ -81,7 +81,7 @@ function Main() {
               disableOnInteraction: false,
             }}
             spaceBetween={10}
-            slidesPerView={2}
+            slidesPerView={1}
             onSlideChange={() => {}}
             onSwiper={(swiper) => {}}
           >
@@ -92,8 +92,12 @@ function Main() {
                   ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
                 </p>
               </div>
-            </SwiperSlide>
-            <SwiperSlide>
+              <div className="card">
+                <h3 className="card__title">Заголовок</h3>
+                <p className="card__text">
+                  ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
+                </p>
+              </div>
               <div className="card">
                 <h3 className="card__title">Заголовок</h3>
                 <p className="card__text">
@@ -108,8 +112,12 @@ function Main() {
                   ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
                 </p>
               </div>
-            </SwiperSlide>
-            <SwiperSlide>
+              <div className="card">
+                <h3 className="card__title">Заголовок</h3>
+                <p className="card__text">
+                  ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
+                </p>
+              </div>
               <div className="card">
                 <h3 className="card__title">Заголовок</h3>
                 <p className="card__text">
