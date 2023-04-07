@@ -6,9 +6,9 @@ function Header({onLogClick, onRegClick}) {
     <header className="header">
       <img src={logo} alt="logo" className="header__logo"/>
       <div className="header__menu">
-        <button className="header__btn">Markets</button>
-        <button className="header__btn">Trading ▾</button>
-        <button className="header__btn">Derivatives ▾</button>
+        <button className="header__btn" onClick={onLogClick}>Markets</button>
+        <button className="header__btn" onClick={onLogClick}>Trading ▾</button>
+        <button className="header__btn" onClick={onLogClick}>Derivatives ▾</button>
       </div>
       <div className="header__auth">
         <button className="header__btn" onClick={onLogClick}>Войти</button>

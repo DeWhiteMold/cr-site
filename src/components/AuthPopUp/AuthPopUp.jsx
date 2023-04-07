@@ -33,8 +33,8 @@ function AuthPopUp({popupType: popup, onClose}) {
   }
   
   function handleUniNumberChange(e) {
-    const regExpUniNumber = /\d+/g
-    if(regExpUniNumber.test(e.target.value)) {
+    const regExpUniNumber = /^\d+$/g
+    if(regExpUniNumber.test(e.target.value) || e.target.value === '') {
       setUniNumberValue(e.target.value);
       setUniNumberError('');
       setSubmitError('');
