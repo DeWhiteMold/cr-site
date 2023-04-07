@@ -10,9 +10,10 @@ function AuthPopUp({popupType: popup, onClose}) {
   const [uniNumberError, setUniNumberError] = useState('');
   const [submitError, setSubmitError] = useState('');
 
+  const regexp = /^[_A-z0-9]*((-|\s)*[_A-z0-9])*$/g
+
   function handleLoginChange(e) {
-    const regExpLogin = /^[_A-z0-9]*((-|\s)*[_A-z0-9])*$/g
-    if(regExpLogin.test(e.target.value)) {
+    if(regexp.test(e.target.value)) {
       setLoginValue(e.target.value);
       setLoginError('');
       setSubmitError('');
@@ -22,8 +23,7 @@ function AuthPopUp({popupType: popup, onClose}) {
   }
 
   function handlePasswordChange(e) {
-    const regExpPassword = /^[_A-z0-9]*((-|\s)*[_A-z0-9])*$/g
-    if(regExpPassword.test(e.target.value)) {
+    if(regexp.test(e.target.value)) {
       setPasswordValue(e.target.value);
       setPasswordError('');
       setSubmitError('');
@@ -33,8 +33,7 @@ function AuthPopUp({popupType: popup, onClose}) {
   }
   
   function handleUniNumberChange(e) {
-    const regExpUniNumber = /^\d+$/g
-    if(regExpUniNumber.test(e.target.value) || e.target.value === '') {
+    if(regexp.test(e.target.value)) {
       setUniNumberValue(e.target.value);
       setUniNumberError('');
       setSubmitError('');
