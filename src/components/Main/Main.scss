@@ -171,3 +171,85 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1299px) {
+  .banner {
+    margin-top: 20px;
+    width: 100%;
+    gap: 15px;
+    padding: 0 20px 100px;
+    box-sizing: border-box;
+
+    &__caption {
+      font-size: 16px;
+    }
+
+    &__title {
+      font-size: 25px;
+    }
+
+    &__description {
+      font-size: 20px;
+      max-width: 100%;
+    }
+
+    &__ambassador {
+      margin: 0;
+      align-self: flex-start;
+
+      &-sign {
+        position: absolute;
+        width: 100px;
+        bottom: 75px;
+        right: 125px;
+      }
+
+      &-title {
+        font-size: 16px;
+      }
+
+      &-description {
+        font-size: 12px;
+      }
+    }
+
+    &__ambassador-img {
+      width: 120px;
+      bottom: 0;
+      right: 20px;
+      z-index: 0;
+    }
+  }
+
+  .content {
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  .currency {
+
+    &__logo {
+      width: 30px;
+    }
+
+    &__name {
+      font-size: 16px;
+    }
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cards {
+    width: 100%;
+    margin-top: 30px;
+    height: 450px;
+  }
+
+  .card {
+    height: 145px;
+  }
+}

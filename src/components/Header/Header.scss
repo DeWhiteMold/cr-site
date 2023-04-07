@@ -45,3 +45,23 @@
     margin-left: auto;
   }
 }
+
+@media screen and (max-width: 1299px) {
+  .header {
+    width: 100%;
+    margin: 0;
+
+    &__logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    &__menu {
+      display: none;
+    }
+
+    &__auth {
+      margin-right: 10px;
+    }
+  }
+}

@@ -17,13 +17,6 @@ function Main() {
   const [ethObj, setEthObj] = useState('');
   const api = new Api(); 
 
-  function f() {
-    api.getBtc()
-      .then((res) => {console.log(res);})
-      api.getEth()
-        .then((res) => {console.log(res);})
-  }
-
   useEffect(() => {
     api.getBtc()
       .then((res) => {
@@ -85,7 +78,7 @@ function Main() {
             onSlideChange={() => {}}
             onSwiper={(swiper) => {}}
           >
-            <SwiperSlide>
+            <SwiperSlide className='slide'>
               <div className="card">
                 <h3 className="card__title">Заголовок</h3>
                 <p className="card__text">
@@ -105,7 +98,7 @@ function Main() {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide className='slide'>
               <div className="card">
                 <h3 className="card__title">Заголовок</h3>
                 <p className="card__text">

@@ -1,5 +1,5 @@
 import './App.scss';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import AuthPopUp from "../AuthPopUp/AuthPopUp";
