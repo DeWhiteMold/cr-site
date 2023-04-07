@@ -66,7 +66,7 @@ function AuthPopUp({popupType: popup, onClose}) {
         <input type='text' className="popup__input" placeholder="Логин" 
           value={loginValue} onChange={handleLoginChange}/>
         <span className="popup__error">{loginError}</span>
-        <input type='text' className="popup__input" placeholder="Пароль" 
+        <input type='password' className="popup__input" placeholder="Пароль" 
           value={passwordValue} onChange={handlePasswordChange}/>
         <span className="popup__error">{passwordError}</span>
         <input type='text' className="popup__input" placeholder="Уникальный номер" 
