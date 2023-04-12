@@ -5,6 +5,8 @@ function AuthPopUp({popupType: popup, onClose}) {
   const [loginValue, setLoginValue] = useState('');
   const [passwordValue, setPasswordValue] = useState('');
   const [uniNumberValue, setUniNumberValue] = useState('');
+  const [emailValue, setEmailValue] = useState('');
+  const [emailError, setEmailError] = useState('');
   const [loginError, setLoginError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [uniNumberError, setUniNumberError] = useState('');
@@ -42,6 +44,16 @@ function AuthPopUp({popupType: popup, onClose}) {
     }
   }
 
+  function handleEmailChange(e) {
+    const regexpEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+    if(regexpEmail.test(e.target.value) || e.target.value === '') {
+      setEmailError('')
+    } else {
+      setEmailError('mail@mail.dom')
+    }
+    setEmailValue(e.target.value)
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
     setSubmitError('Что-то пошло не так')
@@ -52,6 +64,8 @@ function AuthPopUp({popupType: popup, onClose}) {
     setLoginValue('');
     setPasswordValue('');
     setUniNumberValue('');
+    setEmailValue('');
+    setEmailError('');
     setSubmitError('');
     setLoginError('');
     setPasswordError('');
@@ -68,9 +82,17 @@ function AuthPopUp({popupType: popup, onClose}) {
         <input type='password' className="popup__input" placeholder="Пароль" 
           value={passwordValue} onChange={handlePasswordChange}/>
         <span className="popup__error">{passwordError}</span>
-        <input type='text' className="popup__input" placeholder="Уникальный номер" 
-          value={uniNumberValue} onChange={handleUniNumberChange}/>
-        <span className="popup__error">{uniNumberError}</span>
+        {popup?.email && 
+        <>
+          <input type='email' className="popup__input" placeholder="Почта"
+              value={emailValue} onChange={handleEmailChange} />
+          <span className="popup__error">{emailError}</span>
+        </>}
+        {popup?.uninumber && <>
+          <input type='text' className="popup__input" placeholder="Уникальный номер"
+            value={uniNumberValue} onChange={handleUniNumberChange} />
+          <span className="popup__error">{uniNumberError}</span>
+        </>}
         <button className="popup__submit">{popup?.btnText}</button>
         <span className="popup__error">{submitError}</span>
       </form>

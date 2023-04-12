@@ -16,6 +16,8 @@ function App() {
   const regPopup ={
     type: 'registration',
     title: 'Регистрация',
+    email: true,
+    uninumber: true,
     btnText: 'Создать'   
   }
 
