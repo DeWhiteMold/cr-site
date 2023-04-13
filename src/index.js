@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 
@@ -15,7 +16,18 @@ if (rootElement.hasChildNodes()) {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HelmetProvider>
+      <Helmet>
+        <meta
+          name="description"
+          content="Самая высокотехнологическая биржа криптовалют в Японии"
+        />
+        <meta name="og:title" content="Самая высокотехнологическая биржа криптовалют в Японии" />
+        <meta name="og:description" content="Крупнейший финансовый агрегатор по тогровым объёмам среди частных инвесторов на азиатском рынке цифровых активов" />
+        <meta name="og:image" content="https://avatars.mds.yandex.net/get-images-cbir/9060968/G-Feldlr-FCoCoknnblbCg1112/ocr" />
+      </Helmet>
+      <App />
+    </HelmetProvider>
   </React.StrictMode>
 );
 
