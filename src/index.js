@@ -23,7 +23,7 @@ root.render(
           content="Самая высокотехнологическая биржа криптовалют в Японии"
         />
         <meta name="og:title" content="Самая высокотехнологическая биржа криптовалют в Японии" />
-        <meta name="og:description" content="Крупнейший финансовый агрегатор по тогровым объёмам среди частных инвесторов на азиатском рынке цифровых активов" />
+        <meta name="og:description" content="Крупнейший финансовый агрегатор по торговым объёмам среди частных инвесторов на азиатском рынке цифровых активов" />
         <meta name="og:image" content="https://avatars.mds.yandex.net/get-images-cbir/9060968/G-Feldlr-FCoCoknnblbCg1112/ocr" />
       </Helmet>
       <App />
