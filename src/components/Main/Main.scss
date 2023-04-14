@@ -133,8 +133,6 @@
   align-items: flex-start;
   margin-right: 10px;
 
-
-
   &__title {
     text-align: left;
     font-size: 22px;
@@ -144,6 +142,15 @@
     text-align: left;
     font-size: 16px;
     margin-top: 10px;
+  }
+
+  &__icon {
+    background-image: url('../../images/ethirium.png');
+    background-size: contain;
+    margin-left: auto;
+    margin-top: auto;
+    width: 30px;
+    height: 30px;
   }
 }
 

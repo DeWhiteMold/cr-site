@@ -7,6 +7,7 @@ import signImg from '../../images/sign.png'
 import ambassador from '../../images/ambassador.png'
 import btcIcon from '../../images/bitcoin.png'
 import ethIcon from '../../images/ethirium.png'
+import forbesIcon from '../../images/forbesIcon.png'
 
 import 'swiper/scss';
 import "swiper/scss/pagination";
@@ -85,18 +86,21 @@ function Main() {
                 <p className="card__text">
                   ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
                 </p>
+                <div className="card__icon" />
               </div>
               <div className="card">
                 <h3 className="card__title">Заголовок</h3>
                 <p className="card__text">
                   ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
                 </p>
+                <div className="card__icon" />
               </div>
               <div className="card">
                 <h3 className="card__title">Заголовок</h3>
                 <p className="card__text">
                   ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
                 </p>
+                <div className="card__icon" />
               </div>
             </SwiperSlide>
             <SwiperSlide className='slide'>
@@ -105,18 +109,21 @@ function Main() {
                 <p className="card__text">
                   ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
                 </p>
+                <div className="card__icon" />
               </div>
               <div className="card">
                 <h3 className="card__title">Заголовок</h3>
                 <p className="card__text">
                   ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
                 </p>
+                <div className="card__icon" />
               </div>
               <div className="card">
                 <h3 className="card__title">Заголовок</h3>
                 <p className="card__text">
                   ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ ТЕСТ 
                 </p>
+                <div className="card__icon" />
               </div>
             </SwiperSlide>
           </Swiper>
